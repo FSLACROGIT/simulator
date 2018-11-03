@@ -1,0 +1,185 @@
+/*
+COMPARATOR STYLES
+*/
+
+/*//////////////////////////////////////////////////////////////////
+[ STRUCTURE ]*/
+.price-div {}
+.plan-selector-div {}
+.predefined-div {}
+.predefined-results-div {}
+.benefits-div {}
+.options-div {}
+
+.left-input {
+    width: 40px;
+    float: left;
+    height: 100%;
+    /* border-right: 2px solid #d9d9d9; */
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* bottom: 0px; */
+}
+.right-input {
+    margin-left: 40px;
+    /* height: 100%; */
+    /* border: solid red; */
+    height: 32px;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+}
+.item-container{
+
+}
+
+/* Percent */
+
+.left .percent-comparator, .right .percent-comparator {
+  width: 4em;
+  float: left;
+  height: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+
+.left .percent-calc-value, .right .percent-calc-value {
+  height: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-left: solid thin #d9d9d9;
+}
+
+
+.percent-comparator .percent-value {
+  width: 2.8em;
+  float: left;
+  height: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-right:  none;
+  margin-right: 0;
+  padding-right: 0;
+}
+.percent-comparator .percent-symbol {
+  /* margin-left: 5em;
+  padding-left: 2%; */
+  height: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-left:0;
+  margin-left: 0;
+  padding-left: 0;
+  border-right:0;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.left .text-unit, .right .text-unit {
+  width: 100%;
+  float: left;
+  height: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.text-unit .percent-value {
+  width: 2.8em;
+  float: left;
+  height: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-right:  none;
+  margin-right: 0;
+  padding-right: 0;
+}
+.text-unit .percent-symbol {
+  /* margin-left: 5em;
+  padding-left: 2%; */
+  height: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-left:0;
+  margin-left: 0;
+  padding-left: 0;
+  border-right:0;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ STYLE ]*/
+
+/* Redefine left style from main: remove border. */
+.left{
+  border-right: none;
+}
+.item-div{
+  /* margin-top: 10px; */
+  padding-top: 8px;
+  padding-bottom: 12px;
+}
+
+.item-label-div{
+  text-align: left;
+}
+
+.predefined-div .center-content{
+  text-align: center;
+}
+.item-value-div > .left, .item-value-div > .right {
+  border-bottom: 2px solid #d9d9d9;
+  border-bottom-left-radius: 10px;
+}
+
+.comparator-main-div .contact100-form-title{
+  padding-top: 12px;
+  padding-bottom: 4px;
+}
+.value-measure-class{
+  /* width: min-content; */
+  background: transparent;
+}
+.adjusted-input .input100-basics{
+
+max-width: 100%;
+}
+.measure-class{
+  width: -webkit-fill-available;
+  background:  transparent;
+}
+.compulsory_results_tag{
+  display:none;
+  border-radius: 10px;
+}
+.sub-title {
+  background-color: #00512c;
+  border-radius: 10px;
+}
+.sub-title .contact100-form-title {
+  color: #f9fbf9;
+  font-family: Poppins-Medium;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+}
+
+/* Options container*/
+.plan1_opts_tag_class {
+  margin-top: 10px;
+}
